@@ -1,0 +1,30 @@
+{
+  "name": "plugin-starter-kit",
+  "version": "1.0.0",
+  "description": "This is the basic plugin scaffold for each and every project. This project keeps progressing over time.",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup --config rollup.config.js --file lib/bundle.js",
+    "start": "node launcher"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.2",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/register": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "rollup": "^0.68.0",
+    "rollup-plugin-node-resolve": "^4.0.0"
+  },
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
