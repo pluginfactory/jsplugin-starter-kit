@@ -6,7 +6,7 @@
  * @author gaurav sharma
  * @since Wednesday, December 19, 2018
  */
-
-export default () => {
-	return "plugin-starter-kit";
+import Service from './src/service';
+export default {
+	PluginService: Service,
 };
